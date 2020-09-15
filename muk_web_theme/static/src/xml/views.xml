@@ -34,7 +34,8 @@
     </t>
     
     <t t-name="muk_web_theme.IconButton">
-        <i t-attf-class="d-inline d-sm-none fa fa-#{icon}" t-att-title="label"/>
+        <i t-attf-class="fa fa-#{icon}"
+           t-att-title="label"/>
         <span class="d-none d-sm-inline" t-esc="label"/>
     </t>
     

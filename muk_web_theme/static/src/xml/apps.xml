@@ -43,7 +43,7 @@
                                 <i class="fa fa-search"/>
                             </div>
                         </div>
-                        <input type="text" placeholder="Search menus..." class="form-control"/>
+                        <input type="text" placeholder="Búsqueda en menús..." class="form-control"/>
                     </div>
                 </div>
                 <div class="mk_search_results col-md-10 ml-auto mr-auto"/>

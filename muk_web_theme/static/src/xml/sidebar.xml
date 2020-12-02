@@ -29,7 +29,7 @@
             <button t-if="section.name != 'buttons'" data-toggle="dropdown" aria-expanded="false"
             		t-attf-class="o_dropdown_toggler_btn btn btn-secondary dropdown-toggle #{section.icon}">
                 <t t-if="section.name == 'files'" t-raw="widget.items[section.name].length || ''"/>
-                <t t-if="!section.icon" t-esc="section.label"/>
+                <t t-if="!section.icon">Acción</t>
 	        </button>
         </t>
 	</t>
